@@ -5,9 +5,9 @@ require 'twilio-ruby'
 class SmsMessagesController < ApplicationController
 
     def create
-        account_sid = "ACdd194483fec3b2f0395052f6601d3fef"
-        auth_token = "b892a95b529a806b8401edde784d0584"
-        twilio_number = "+15617828619"
+        account_sid = "account_sid"
+        auth_token = "auth_token"
+        twilio_number = "twilio_number"
 
         # client = Twilio::REST::Client.new(ACCOUNT_SID, AUTH_TOKEN)
 
