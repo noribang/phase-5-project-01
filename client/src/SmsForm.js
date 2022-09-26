@@ -18,7 +18,7 @@ function SmsForm() {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',
-                'accepts': 'application/json'
+                accepts: 'application/json'
             },
             body: JSON.stringify(smsObj)
         })
