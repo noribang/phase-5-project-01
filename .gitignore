@@ -25,3 +25,5 @@
 
 # Ignore environment.rb for Twilio credentials. 
 /config/environment.rb
+# Ignore application configuration
+/config/application.yml

@@ -29,3 +29,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Twilio integrstion
 gem 'twilio-ruby'
+
+# Creates ENV variables in Rails. Creates YAML added to .gitignore.
+gem 'figaro'
